@@ -4,6 +4,8 @@
 
 # 命令
 
+## 第二章 最小化内核
+
 - rustup update
 - rustup target add thumbv7em-none-eabihf
 - rustup override add nightly
@@ -16,6 +18,7 @@
 - cargo install bootimage
 - cargo bootimage
 - qemu-system-x86_64 -drive format=raw,file=bootimage-blog_os.bin
+- cargo run
 
 # bootloader bug
 
